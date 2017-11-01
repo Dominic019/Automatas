@@ -189,7 +189,7 @@
                             .setTransitions(transitions)
                             .evalStrings(strings);
     
-            output.value = outputText
+            output.value = outputText;
         }
     
         reader.readAsText(input.files[0]);
